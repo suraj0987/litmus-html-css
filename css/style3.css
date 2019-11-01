@@ -1,0 +1,109 @@
+th, tr, td {
+	text-align: left;
+	padding: 25px;
+	border: none;
+}
+th {
+	color: #95a3b1;
+}
+.table-container {
+	left: 268px; 
+	top: 148px; 
+	position: absolute; 
+	width: 1040px;
+	height: 714px;
+	background-color: white;
+}
+#grey-italics {
+	color: grey;
+	font-style: italic;
+}
+.start-quiz {
+	font-family: bold;
+	color: #ec5037;
+	border: 2px solid #ec5037;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+#table-bg {
+	background-color: #f9fafc;
+}
+/* Reset Select */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #2c3e50;
+  background-image: none;
+}
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+/* Custom Select */
+.select {
+  position: relative;
+  display: flex;
+  width: 55px;
+  height: 3em;
+  line-height: 3;
+  overflow: hidden;
+  border-radius: .25em;
+}
+select {
+  flex: 1;
+  padding: 0.5em;
+  cursor: pointer;
+  font-size: 20px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  
+}
+/* Arrow */
+.select::after {
+  content: "▼";
+  position: absolute;
+  top: -0.7mm;
+  right: 0;
+  width: 16%;
+  padding: 3px;
+  background: transparent;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+/* Transition */
+.select:hover::after {
+  color: black;
+}
+#dropdown-green {
+	color: green;
+}
+#dropdown-yellow {
+	color: yellow;
+}
+#dropdown-red {
+	color: red;
+}
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 84%;
+    background-color: transparent;
+    color: grey;
+    border: 1px solid grey;	
+}
+.left-footer {
+	float: left;
+}
+.right-footer {
+	float: right;
+}

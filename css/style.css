@@ -1,0 +1,65 @@
+@import "style2.css";
+@import "style3.css";
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #def9fe;
+}
+.container-right {
+	float: right;
+	width: 84%;
+	background-color: grey; 
+}
+.container-left {
+	float: left;
+	width: 16%;
+	background-color: white;
+}
+header {
+	text-align: center;
+}
+.logo {
+	display: inline-block;
+	width: auto;
+    height: auto;
+    margin-top: 15px;
+	
+}
+.nav-list ul {
+	list-style-type: none;
+	margin-left: 0px;
+	padding: 0;
+	text-align: left;
+}
+.nav-list a {
+	display: block;
+	padding-left: 30px;
+	padding-bottom: 13px;
+	padding-top: 10px;
+	border: black;
+	text-decoration: none;
+	color: #95a3b1;
+}
+.nav-list a:hover {
+	background-color: #ec5037;
+	color: white;
+}
+.nav-list a.active {
+	background-color: #ec5037;
+	color: white;
+}
+.nav-list img {
+	padding-right: 10px;
+}
+#whitespace {
+	margin-top: 300px;
+	margin-bottom: -13px;
+}
+.material-icons-outlined {
+    color: black;
+    background-size: contain;
+    top: 5px;
+}
+.nav-list li:hover i {
+	color: white;
+}

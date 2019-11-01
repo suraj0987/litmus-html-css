@@ -1,0 +1,31 @@
+.sub-nav {  
+	left: 269px; 
+	top: 69px; 
+	position: absolute; 
+	width: 1038px;
+	height: 52px;
+	background-color: white;
+}
+.sub-nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border: 1px red;
+}
+.sub-nav li {
+	padding-top: 17px;
+	float: left;
+}
+.sub-nav a {
+	display: inline;
+	color: grey;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-bottom: 3px solid transparent;
+}
+.sub-nav a:hover {
+	border-bottom: 3px solid red;
+	color: #ec5037;
+}
+
